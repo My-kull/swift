@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		774E99972B95A4E20000ADD8 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 774E99962B95A4E20000ADD8 /* Authentication.swift */; };
+		776972A82B79FE3F00693ED5 /* StreamChatSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 776972A72B79FE3F00693ED5 /* StreamChatSwiftUI */; };
+		776972AA2B7A02AA00693ED5 /* CustomChannelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776972A92B7A02AA00693ED5 /* CustomChannelList.swift */; };
+		776972AC2B7A0DC100693ED5 /* CustomChannelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776972AB2B7A0DC100693ED5 /* CustomChannelView.swift */; };
+		77A2E2BC2B7654A600988369 /* InterestingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2E2BB2B7654A600988369 /* InterestingerApp.swift */; };
+		77A2E2C02B7654A600988369 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2E2BF2B7654A600988369 /* Item.swift */; };
+		77A2E2C22B7654A700988369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A2E2C12B7654A700988369 /* Assets.xcassets */; };
+		77A2E2C52B7654A700988369 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A2E2C42B7654A700988369 /* Preview Assets.xcassets */; };
+		77A2E2D12B7654A700988369 /* InterestingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2E2D02B7654A700988369 /* InterestingerTests.swift */; };
+		77A2E2DB2B7654A800988369 /* InterestingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2E2DA2B7654A800988369 /* InterestingerUITests.swift */; };
+		77A2E2DD2B7654A800988369 /* InterestingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A2E2DC2B7654A800988369 /* InterestingerUITestsLaunchTests.swift */; };
+		77FAD1822B7CD04B0028E7B9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FAD1812B7CD04B0028E7B9 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77A2E2CD2B7654A700988369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A2E2B02B7654A600988369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A2E2B72B7654A600988369;
+			remoteInfo = Interestinger;
+		};
+		77A2E2D72B7654A800988369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77A2E2B02B7654A600988369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A2E2B72B7654A600988369;
+			remoteInfo = Interestinger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		774E99962B95A4E20000ADD8 /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		776972A92B7A02AA00693ED5 /* CustomChannelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelList.swift; sourceTree = "<group>"; };
+		776972AB2B7A0DC100693ED5 /* CustomChannelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomChannelView.swift; sourceTree = "<group>"; };
+		77A2E2B82B7654A600988369 /* Interestinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interestinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A2E2BB2B7654A600988369 /* InterestingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingerApp.swift; sourceTree = "<group>"; };
+		77A2E2BF2B7654A600988369 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		77A2E2C12B7654A700988369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77A2E2C42B7654A700988369 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77A2E2C62B7654A700988369 /* Interestinger.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interestinger.entitlements; sourceTree = "<group>"; };
+		77A2E2C72B7654A700988369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A2E2CC2B7654A700988369 /* InterestingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterestingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A2E2D02B7654A700988369 /* InterestingerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingerTests.swift; sourceTree = "<group>"; };
+		77A2E2D62B7654A800988369 /* InterestingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterestingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77A2E2DA2B7654A800988369 /* InterestingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingerUITests.swift; sourceTree = "<group>"; };
+		77A2E2DC2B7654A800988369 /* InterestingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		77FAD1812B7CD04B0028E7B9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A2E2B52B7654A600988369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776972A82B79FE3F00693ED5 /* StreamChatSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A2E2C92B7654A700988369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A2E2D32B7654A800988369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77A2E2AF2B7654A600988369 = {
+			isa = PBXGroup;
+			children = (
+				77A2E2BA2B7654A600988369 /* Interestinger */,
+				77A2E2CF2B7654A700988369 /* InterestingerTests */,
+				77A2E2D92B7654A800988369 /* InterestingerUITests */,
+				77A2E2B92B7654A600988369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77A2E2B92B7654A600988369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77A2E2B82B7654A600988369 /* Interestinger.app */,
+				77A2E2CC2B7654A700988369 /* InterestingerTests.xctest */,
+				77A2E2D62B7654A800988369 /* InterestingerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77A2E2BA2B7654A600988369 /* Interestinger */ = {
+			isa = PBXGroup;
+			children = (
+				77A2E2BB2B7654A600988369 /* InterestingerApp.swift */,
+				77A2E2BF2B7654A600988369 /* Item.swift */,
+				77A2E2C12B7654A700988369 /* Assets.xcassets */,
+				77A2E2C62B7654A700988369 /* Interestinger.entitlements */,
+				77A2E2C72B7654A700988369 /* Info.plist */,
+				77A2E2C32B7654A700988369 /* Preview Content */,
+				776972A92B7A02AA00693ED5 /* CustomChannelList.swift */,
+				776972AB2B7A0DC100693ED5 /* CustomChannelView.swift */,
+				77FAD1812B7CD04B0028E7B9 /* LoginView.swift */,
+				774E99962B95A4E20000ADD8 /* Authentication.swift */,
+			);
+			path = Interestinger;
+			sourceTree = "<group>";
+		};
+		77A2E2C32B7654A700988369 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77A2E2C42B7654A700988369 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77A2E2CF2B7654A700988369 /* InterestingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				77A2E2D02B7654A700988369 /* InterestingerTests.swift */,
+			);
+			path = InterestingerTests;
+			sourceTree = "<group>";
+		};
+		77A2E2D92B7654A800988369 /* InterestingerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77A2E2DA2B7654A800988369 /* InterestingerUITests.swift */,
+				77A2E2DC2B7654A800988369 /* InterestingerUITestsLaunchTests.swift */,
+			);
+			path = InterestingerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77A2E2B72B7654A600988369 /* Interestinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A2E2E02B7654A800988369 /* Build configuration list for PBXNativeTarget "Interestinger" */;
+			buildPhases = (
+				77A2E2B42B7654A600988369 /* Sources */,
+				77A2E2B52B7654A600988369 /* Frameworks */,
+				77A2E2B62B7654A600988369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interestinger;
+			packageProductDependencies = (
+				776972A72B79FE3F00693ED5 /* StreamChatSwiftUI */,
+			);
+			productName = Interestinger;
+			productReference = 77A2E2B82B7654A600988369 /* Interestinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77A2E2CB2B7654A700988369 /* InterestingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A2E2E32B7654A800988369 /* Build configuration list for PBXNativeTarget "InterestingerTests" */;
+			buildPhases = (
+				77A2E2C82B7654A700988369 /* Sources */,
+				77A2E2C92B7654A700988369 /* Frameworks */,
+				77A2E2CA2B7654A700988369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A2E2CE2B7654A700988369 /* PBXTargetDependency */,
+			);
+			name = InterestingerTests;
+			productName = InterestingerTests;
+			productReference = 77A2E2CC2B7654A700988369 /* InterestingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77A2E2D52B7654A800988369 /* InterestingerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77A2E2E62B7654A800988369 /* Build configuration list for PBXNativeTarget "InterestingerUITests" */;
+			buildPhases = (
+				77A2E2D22B7654A800988369 /* Sources */,
+				77A2E2D32B7654A800988369 /* Frameworks */,
+				77A2E2D42B7654A800988369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77A2E2D82B7654A800988369 /* PBXTargetDependency */,
+			);
+			name = InterestingerUITests;
+			productName = InterestingerUITests;
+			productReference = 77A2E2D62B7654A800988369 /* InterestingerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77A2E2B02B7654A600988369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					77A2E2B72B7654A600988369 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					77A2E2CB2B7654A700988369 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 77A2E2B72B7654A600988369;
+					};
+					77A2E2D52B7654A800988369 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 77A2E2B72B7654A600988369;
+					};
+				};
+			};
+			buildConfigurationList = 77A2E2B32B7654A600988369 /* Build configuration list for PBXProject "Interestinger" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77A2E2AF2B7654A600988369;
+			packageReferences = (
+				776972A62B79FE3F00693ED5 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */,
+			);
+			productRefGroup = 77A2E2B92B7654A600988369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77A2E2B72B7654A600988369 /* Interestinger */,
+				77A2E2CB2B7654A700988369 /* InterestingerTests */,
+				77A2E2D52B7654A800988369 /* InterestingerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77A2E2B62B7654A600988369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A2E2C52B7654A700988369 /* Preview Assets.xcassets in Resources */,
+				77A2E2C22B7654A700988369 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A2E2CA2B7654A700988369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A2E2D42B7654A800988369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77A2E2B42B7654A600988369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A2E2C02B7654A600988369 /* Item.swift in Sources */,
+				776972AC2B7A0DC100693ED5 /* CustomChannelView.swift in Sources */,
+				776972AA2B7A02AA00693ED5 /* CustomChannelList.swift in Sources */,
+				77FAD1822B7CD04B0028E7B9 /* LoginView.swift in Sources */,
+				77A2E2BC2B7654A600988369 /* InterestingerApp.swift in Sources */,
+				774E99972B95A4E20000ADD8 /* Authentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A2E2C82B7654A700988369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A2E2D12B7654A700988369 /* InterestingerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77A2E2D22B7654A800988369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77A2E2DD2B7654A800988369 /* InterestingerUITestsLaunchTests.swift in Sources */,
+				77A2E2DB2B7654A800988369 /* InterestingerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77A2E2CE2B7654A700988369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A2E2B72B7654A600988369 /* Interestinger */;
+			targetProxy = 77A2E2CD2B7654A700988369 /* PBXContainerItemProxy */;
+		};
+		77A2E2D82B7654A800988369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77A2E2B72B7654A600988369 /* Interestinger */;
+			targetProxy = 77A2E2D72B7654A800988369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		77A2E2DE2B7654A800988369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		77A2E2DF2B7654A800988369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77A2E2E12B7654A800988369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Interestinger/Interestinger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Interestinger/Preview Content\"";
+				DEVELOPMENT_TEAM = SFNF84CHV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interestinger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Interestinger camera use";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Interestinger photo use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoundRaste.Interestinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77A2E2E22B7654A800988369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Interestinger/Interestinger.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Interestinger/Preview Content\"";
+				DEVELOPMENT_TEAM = SFNF84CHV2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interestinger/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Interestinger camera use";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Interestinger photo use";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoundRaste.Interestinger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77A2E2E42B7654A800988369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFNF84CHV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoundRaste.InterestingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interestinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interestinger";
+			};
+			name = Debug;
+		};
+		77A2E2E52B7654A800988369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFNF84CHV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoundRaste.InterestingerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interestinger.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Interestinger";
+			};
+			name = Release;
+		};
+		77A2E2E72B7654A800988369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFNF84CHV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoundRaste.InterestingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Interestinger;
+			};
+			name = Debug;
+		};
+		77A2E2E82B7654A800988369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SFNF84CHV2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SoundRaste.InterestingerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Interestinger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77A2E2B32B7654A600988369 /* Build configuration list for PBXProject "Interestinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A2E2DE2B7654A800988369 /* Debug */,
+				77A2E2DF2B7654A800988369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A2E2E02B7654A800988369 /* Build configuration list for PBXNativeTarget "Interestinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A2E2E12B7654A800988369 /* Debug */,
+				77A2E2E22B7654A800988369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A2E2E32B7654A800988369 /* Build configuration list for PBXNativeTarget "InterestingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A2E2E42B7654A800988369 /* Debug */,
+				77A2E2E52B7654A800988369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77A2E2E62B7654A800988369 /* Build configuration list for PBXNativeTarget "InterestingerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77A2E2E72B7654A800988369 /* Debug */,
+				77A2E2E82B7654A800988369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		776972A62B79FE3F00693ED5 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getstream/stream-chat-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.44.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		776972A72B79FE3F00693ED5 /* StreamChatSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 776972A62B79FE3F00693ED5 /* XCRemoteSwiftPackageReference "stream-chat-swiftui" */;
+			productName = StreamChatSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 77A2E2B02B7654A600988369 /* Project object */;
+}
